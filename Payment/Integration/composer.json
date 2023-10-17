@@ -1,0 +1,21 @@
+{
+    "name": "payment/integration",
+    "description": "Payment integration for Magento",
+    "license": "proprietary",
+    "authors": [
+      {
+        "name": "jean",
+        "email": "jeandamaceno3@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Payment\\Integration\\": ""
+      },
+      "files": [
+        "registration.php"
+      ]
+    }
+  }
