@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!--Arquivo default do magento para criacao de modulos-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Payment_Integration" setup_version="1.0.0"></module>
+</config>
