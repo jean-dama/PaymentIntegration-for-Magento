@@ -3,7 +3,6 @@
     xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <event name="payment_method_assign_data_payment_integration">
         <observer name="Payment\Integration\Observer\DataAssignObserver"
-                instance="Payment\Integration\Observer\DataAssignObserver">
-        </observer>
+                instance="Payment\Integration\Observer\DataAssignObserver"></observer>
     </event>
 </config>
